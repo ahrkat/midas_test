@@ -1,19 +1,30 @@
 # Project Brief
 
-Fill this in with information that is safe for Midas to inspect.
+I want to run a simple t test comparing between two groups (female, male) and their average grade in math. 
 
 ## Research Goal
 
-Briefly describe the research question or task.
+Gender and education
 
 ## Programming Language
 
-State the preferred language, such as R or Python.
+R
 
 ## Intended Analysis
 
-Describe the planned analysis at a high level.
+T-Test 
 
 ## Sanitized Data Shape Report
 
-Paste selected excerpts from a reviewed vault-side data-shape report here. Remove anything that could be sensitive.
+## dataset_1_sheet_1
+
+- file name: Grades.xlsx
+- format: Excel sheet
+- row count: 100-999
+- column count: 3
+
+| column | inferred type | missingness | text length | flags | category labels |
+|---|---|---|---|---|---|
+| ID | numeric_like | none observed | short | identifier_like, numeric_like | suppressed |
+| Gender | categorical_like | none observed | short | categorical_like | suppressed |
+| Grade | numeric_like | none observed | short | categorical_like, numeric_like | suppressed |
